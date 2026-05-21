@@ -96,10 +96,22 @@ var Qs=[
 ];
 
 var softwareMap={
-  freee:{name:"freee会計",emoji:"🟢",cost:"月額980円〜",desc:"UIがシンプルで初心者に最も使いやすい。確定申告書類の自動作成機能が充実。スマホアプリも好評。",strength:"初心者・フリーランスに最適",url:"A8_FREEE_URL_PLACEHOLDER"},
-  mf:{name:"マネーフォワード クラウド確定申告",emoji:"🔵",cost:"月額980円〜",desc:"銀行・クレジットカードの自動連携が業界最多。明細の自動仕訳精度が高く、中級者以上に人気。",strength:"銀行連携が多い・自動仕訳が強い",url:"A8_MFCLOUD_URL_PLACEHOLDER"},
-  yayoi:{name:"やよいの青色申告（弥生）",emoji:"🟡",cost:"初年度無料〜月額842円",desc:"シェアNo.1の老舗会計ソフト。サポート体制が厚く、地方の税理士との連携も多い。初年度無料が魅力。",strength:"サポートが充実・初年度無料",url:"A8_YAYOI_URL_PLACEHOLDER"},
-  kaikei:{name:"会計freee（法人版）",emoji:"🟣",cost:"月額2,380円〜",desc:"法人向けに特化した機能が充実。給与計算・人事労務との連携もスムーズ。インボイス・電子帳簿保存法に完全対応。",strength:"法人・インボイス完全対応",url:"A8_FREEE_CORP_URL_PLACEHOLDER"}
+  freee:{name:"freee会計",emoji:"🟢",cost:"月額980円〜",desc:"UIがシンプルで初心者に最も使いやすい。確定申告書類の自動作成機能が充実。スマホアプリも好評。",strength:"初心者・フリーランスに最適",
+    url:"https://px.a8.net/svt/ejp?a8mat=4B3VR6+BVIXB6+3SPO+9FDI8Y",
+    pixel:'<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3VR6+BVIXB6+3SPO+9FDI8Y" alt="">',
+    banner:'<div class="text-center mb-3"><a href="https://px.a8.net/svt/ejp?a8mat=4B3VR6+BVIXB6+3SPO+9FHKUP" rel="nofollow" target="_blank"><img border="0" width="336" height="280" alt="freee会計" src="https://www20.a8.net/svt/bgt?aid=260521602718&wid=079&eno=01&mid=s00000017718057021000&mc=1"></a><img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4B3VR6+BVIXB6+3SPO+9FHKUP" alt=""></div>'},
+  mf:{name:"マネーフォワード クラウド確定申告",emoji:"🔵",cost:"月額980円〜",desc:"銀行・クレジットカードの自動連携が業界最多。確定申告書類の作成時間を80%以上削減。会計事務所オススメNo.1ソフト。",strength:"確定申告の自動化・時間削減",
+    url:"https://px.a8.net/svt/ejp?a8mat=4B3VR6+BXB84I+4JGQ+BWVTE",
+    pixel:'<img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4B3VR6+BXB84I+4JGQ+BWVTE" alt="">',
+    banner:'<div class="text-center mb-3"><a href="https://px.a8.net/svt/ejp?a8mat=4B3VR6+BXB84I+4JGQ+BYDTT" rel="nofollow" target="_blank"><img border="0" width="300" height="250" alt="マネーフォワード クラウド確定申告" src="https://www27.a8.net/svt/bgt?aid=260521602721&wid=079&eno=01&mid=s00000021185002008000&mc=1"></a><img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=4B3VR6+BXB84I+4JGQ+BYDTT" alt=""></div>'},
+  yayoi:{name:"やよいの青色申告（弥生）",emoji:"🟡",cost:"初年度無料〜月額842円",desc:"シェアNo.1の老舗会計ソフト。サポート体制が厚く、地方の税理士との連携も多い。初年度無料が魅力。",strength:"サポートが充実・初年度無料",
+    url:"https://px.a8.net/svt/ejp?a8mat=4B3VR6+BWPSIQ+4JGQ+614CY",
+    pixel:'<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3VR6+BWPSIQ+4JGQ+614CY" alt="">',
+    banner:''},
+  kaikei:{name:"会計freee（法人版）",emoji:"🟣",cost:"月額2,380円〜",desc:"法人向けに特化した機能が充実。給与計算・人事労務との連携もスムーズ。インボイス・電子帳簿保存法に完全対応。",strength:"法人・インボイス完全対応",
+    url:"https://px.a8.net/svt/ejp?a8mat=4B3VR6+BVIXB6+3SPO+9FDI8Y",
+    pixel:'<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4B3VR6+BVIXB6+3SPO+9FDI8Y" alt="">',
+    banner:'<div class="text-center mb-3"><a href="https://px.a8.net/svt/ejp?a8mat=4B3VR6+BVIXB6+3SPO+9FHKUP" rel="nofollow" target="_blank"><img border="0" width="336" height="280" alt="freee会計" src="https://www20.a8.net/svt/bgt?aid=260521602718&wid=079&eno=01&mid=s00000017718057021000&mc=1"></a><img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4B3VR6+BVIXB6+3SPO+9FHKUP" alt=""></div>'}
 };
 
 var cur=0,ans={};
@@ -138,8 +150,9 @@ function showResults(){
     list.appendChild(d);
   });
 
-  var top=softwareMap[rankKeys[0]];
-  document.getElementById('aff-area').innerHTML='<a href="'+top.url+'" target="_blank" rel="noopener sponsored" class="block text-center bg-slate-700 text-white font-bold py-3 rounded-lg text-sm hover:bg-slate-800 transition mb-2">'+top.emoji+' '+top.name+'を無料で試す →</a><a href="'+softwareMap[rankKeys[1]].url+'" target="_blank" rel="noopener sponsored" class="block text-center bg-slate-400 text-white font-bold py-3 rounded-lg text-sm hover:bg-slate-500 transition">'+softwareMap[rankKeys[1]].emoji+' '+softwareMap[rankKeys[1]].name+'も比較する →</a>';
+  var top=softwareMap[rankKeys[0]];var sec=softwareMap[rankKeys[1]];
+  var affHTML=(top.banner||'')+'<a href="'+top.url+'" target="_blank" rel="noopener nofollow sponsored" class="block text-center bg-slate-700 text-white font-bold py-3 rounded-lg text-sm hover:bg-slate-800 transition mb-2">'+top.emoji+' '+top.name+'を無料で試す →</a>'+(top.pixel||'')+(sec.banner||'')+'<a href="'+sec.url+'" target="_blank" rel="noopener nofollow sponsored" class="block text-center bg-slate-400 text-white font-bold py-3 rounded-lg text-sm hover:bg-slate-500 transition">'+sec.emoji+' '+sec.name+'も比較する →</a>'+(sec.pixel||'');
+  document.getElementById('aff-area').innerHTML=affHTML;
   show('results');
 }
 function restart(){cur=0;ans={};show('intro');}
