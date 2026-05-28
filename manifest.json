@@ -4,7 +4,7 @@
   "description": "事業規模・業種・ITスキルから最適な会計・確定申告ソフトを無料診断。個人事業主・法人対応。",
   "start_url": "/accounting-software-advisor/",
   "display": "standalone",
-  "background_color": "#f8faf9",
+  "background_color": "#ffffff",
   "theme_color": "#7c3aed",
   "lang": "ja",
   "icons": [
